@@ -2,6 +2,26 @@ table{
   width: 100%;
 }
 
-img{
+#img_typo{
+  display: none;
+}
+#img_page{
+  display: none;
+}
+#img_tab{
+  display: none;
+}
+#img_html{
+  display: none;
+}
+#s_menu{
+  visibility: visible;
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+}
+
+header{
+  visibility: hidden;
   display: none;
 }

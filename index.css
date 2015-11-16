@@ -4,6 +4,10 @@ img{
   height: 40%;
   margin-top: 10%;
 }
+#s_menu{
+  visibility: hidden;
+  display: none;
+}
 #img_html{
   width: 30%;
   margin-top: 5%;
