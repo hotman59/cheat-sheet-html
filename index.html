@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" type="text/css" href="index.css" media="screen">
   <link rel="stylesheet" type="text/css" href="phone_html.css" media="screen and (max-width:768px)">
+  <link rel="icon" type="image/png" href="leboncoin.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1, zoom=1" />
 
   <meta charset="utf-8">
@@ -14,43 +15,55 @@
 </head>
 
 <body>
-<header class="site-header">
-  <div class="row">
-    <nav class="navbar navbar-default navbar-inverse">
-      <div class="navbar-header">
-        <a class="navbar-brand">hotman</a>
-      </div>
-<div class="navbar-collapse collapse navbar-right">
-  <ul class="nav navbar-nav">
-    <li><a href="#">home</a></li>
-    <li><a href="#">contact</a></li>
-    <li><a href="#">blue</a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-  </ul>
-</div>
-    </nav>
+  <header class="site-header">
+    <div class="row">
+      <nav class="navbar navbar-default navbar-inverse">
+        <div class="navbar-header">
+          <a class="navbar-brand">hotman</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">blue</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-  </div>
-</header>
-<nav>
-  <img id="s_menu" src="img/s_menu.png" alt="menu" />
-</nav>
+    </div>
+  </header>
+  <nav>
+    <img id="s_menu" src="img/s_menu.png" alt="menu" />
+  </nav>
+  <!-- TITRE-->
+  <h1>cheat sheet html5 </h1>
+  <!--IMAGE-->
+  <img id="img_html" src="img/HTML5.png" alt="image html5 " />
 
-<h1>cheat sheet html5 </h1>
-<img id="img_html" src="img/HTML5.png" alt="image html5 "/>
 
   <div class="container ">
-      <div id "table" class="row ">
-        <img id="img_typo"class="col-xs-12 col-sm-10 col-md-4" src="img/heading-tags.png" alt="image htlm" />
+    <div id "table" class="row ">
 
-        <section id="tab_typo"class="col-xs-12 col-sm-10 col-md-6">
-          <table class="table table-bordered table-striped table-responsive">
+      <!-- IMAGE QUI ILLUSTRE LE TABLEAU-->
+      <img id="img_typo" class="col-xs-12 col-sm-10 col-md-4" src="img/heading-tags.png" alt="image htlm" />
 
-            <caption>Typographie<caption/>
+      <!-- LE TABLEAU TYPOGRAPHIE AVEC LA CONFIGURATION POUR RESPONSIVE-->
+      <section id="tab_typo" class="col-xs-12 col-sm-10 col-md-6">
+        <table class="table table-bordered table-striped table-responsive">
+
+          <caption>Typographie
+            <caption/>
             <thead>
               <tr>
-                 <th> < balise > </th>
+                <th>
+                  < balise>
+                </th>
                 <th>definition</th>
               </tr>
             </thead>
@@ -87,22 +100,25 @@
               </tr>
 
             </tbody>
-          </table>
-        </section>
+        </table>
+      </section>
 
 
+      <!-- NOUVEL STRUCTURE-->
+      <div class="row">
 
-<div class="row">
-
-  <img id="img_page" class="pull-right col-xs-12 col-sm-10 col-md-4 " src="img/img_page.png" alt="image htlm" />
-
-        <section id"tab_page" class="col-xs-12 col-sm-10 col-md-8">
+        <!-- IMAGE RESPONSIVE QUI ILLUSTRE LE TABLEAU "STRUCTURE D'UNE PAGE"-->
+        <img id="img_page" class="pull-right col-xs-12 col-sm-10 col-md-4 " src="img/img_page.png" alt="image htlm" />
+        <!--LE TABLEAU POUR LA "STRUCTURE D'UNE PAGE"-->
+        <section id "tab_page" class="col-xs-12 col-sm-10 col-md-8">
           <table class="table table-bordered table-striped table-responsive">
             <caption>structure d'une page</caption>
 
             <thead>
               <tr>
-                <th>< balise ></th>
+                <th>
+                  < balise>
+                </th>
                 <th>definition</th>
               </tr>
             </thead>
@@ -140,61 +156,63 @@
 
       </div>
 
+      <!-- TABLEAU -->
+      <div id="table" class="row">
+        <img id="img_tab" class="pull-left col-xs-12 col-sm-10 col-md-4 " src="img/img_tab.png" alt="image htlm" />
 
-    <div id="table" class="row">
-      <img   id="img_tab" class="pull-left col-xs-12 col-sm-10 col-md-4 " src="img/img_tab.png" alt="image htlm" />
+        <section id "tab_table" class="col-xs-12 col-sm-10 col-md-6">
+          <table class="table table-bordered table-striped table-responsive">
+            <caption>tableau </caption>
+            <thead>
+              <tr>
+                <th>
+                  < balise>
+                </th>
+                <th>definition</th>
+              </tr>
+            </thead>
 
-            <section id"tab_table" class="col-xs-12 col-sm-10 col-md-6">
-              <table class="table table-bordered table-striped table-responsive">
-                <caption>tableau </caption>
-                <thead>
-                  <tr>
-                    <th> < balise ></th>
-                    <th>definition</th>
-                  </tr>
-                </thead>
+            <tbody>
+              <tr>
+                <td> table </td>
+                <td>Tableau</td>
+              </tr>
+              <tr>
+                <td> thead</td>
+                <td>Section de l'en-tête du tableau</td>
+              </tr>
+              <tr>
+                <td> th </td>
+                <td>Cellule d'en-tête</td>
+              </tr>
+              <tr>
+                <td>tbody</td>
+                <td>Section du corps du tableau</td>
+              </tr>
+              <tr>
+                <td>td</td>
+                <td>cellule</td>
+              </tr>
 
-                <tbody>
-                  <tr>
-                    <td> table </td>
-                    <td>Tableau</td>
-                  </tr>
-                  <tr>
-                    <td> thead</td>
-                    <td>Section de l'en-tête du tableau</td>
-                  </tr>
-                  <tr>
-                    <td> th </td>
-                    <td>Cellule d'en-tête</td>
-                  </tr>
-                  <tr>
-                    <td>tbody</td>
-                    <td>Section du corps du tableau</td>
-                  </tr>
-                  <tr>
-                    <td>td</td>
-                    <td>cellule</td>
-                  </tr>
+              <tr>
+                <td>tr</td>
+                <td>ligne de tableau</td>
+              </tr>
 
-                  <tr>
-                    <td>tr</td>
-                    <td>ligne de tableau</td>
-                  </tr>
+            </tbody>
+          </table>
+        </section>
 
-                </tbody>
-              </table>
-            </section>
+      </div>
 
-          </div>
-
-        </div>
-
+    </div>
 
 
 
 
-        <div class="container">
-    	<div class="col-sm-8 col-sm-offset-2 text-center">
+    <!--LE BAS DE PAGE QUI RENVOIE AU RESEAU SOCIAUX-->
+    <div class="container">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
         <h2> Sheet cheet html5</h2>
 
         <ul class="list-inline center-block">
@@ -204,8 +222,8 @@
           <li><a href="http://pinterest.com/"> pinterest</a></li>
         </ul>
 
-    	</div>
-  </div>
+      </div>
+    </div>
 
   </div>
 
@@ -218,9 +236,9 @@
 
 
 
-    <script type="application/javascript" src="jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="dist/js/bootstrap.js"></script>
-    <script type="text/javascript" src="dist/js/my_script.js"></script>
+  <script type="application/javascript" src="jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="dist/js/my_script.js"></script>
 </body>
 
 </html>
